@@ -1,6 +1,6 @@
 # NOSQL-DATABASES - Practical Assignment 2023/2024
 
-# Constituição do grupo:
+# Group Members:
 - [Amindo Machado](https://github.com/IMindo) (pg52170)
 - [Duarte Velho](https://github.com/duartebred) (pg53481)
 - [Mariana Oliveira](https://github.com/ketamine-juice) (pg52648)
@@ -8,41 +8,45 @@
 - [Rodrigo Esperança](https://github.com/esperancaa) (pg50923)
 
 
-# Objetivo
+# Objective  
 
-Este repositório contém todos os materiais e códigos desenvolvidos como parte do trabalho prático da disciplina de Bases de Dados NoSQL. O objetivo deste trabalho é fornecer aos estudantes habilidades práticas no entendimento e utilização de paradigmas de base de dados não relacionais, além da aplicação prática no design e implementação de sistemas.
+This repository contains all the materials and code developed as part of the practical assignment for the **NoSQL Databases** course.  
+The main goal is to provide students with hands-on experience in understanding and applying non-relational database paradigms, as well as in the design and implementation of systems.  
 
-# Descrição do Trabalho
+# Project Description  
 
-Cada grupo de estudantes é responsável pela análise, planejamento e implementação usando um sistema de gestão de base de dados relacional e dois sistemas não relacionais: um orientado a documentos (MongoDB) e outro orientado a grafos (Neo4j). O ponto de partida é uma base de dados relacional de gestão hospitalar, com o script disponível em hospital.sql, que inclui tabelas, vistas, sequências, índices, gatilhos e procedimentos.
+Each group of students is responsible for the analysis, planning, and implementation of a project using:  
+- one **relational database management system**, and  
+- two **non-relational systems**: a document-oriented database (**MongoDB**) and a graph-oriented database (**Neo4j**).  
 
-# Etapas do Trabalho
+The starting point is a hospital management relational database, provided through the script `hospital.sql`, which includes tables, views, sequences, indexes, triggers, and procedures.  
 
-- 1) Migração de Dados: Definir e explicar o processo de migração dos dados do esquema relacional fornecido para os novos sistemas não relacionais, otimizando cada um dos paradigmas.
+# Project Tasks  
 
-- 2) Implementação de Consultas: Desenvolver e implementar um conjunto de consultas que demonstrem a operabilidade dos sistemas implementados.
+1. **Data Migration**: Define and explain the process of migrating data from the provided relational schema to the new non-relational systems, optimizing for the characteristics of each paradigm.  
+2. **Query Implementation**: Develop and implement a set of queries that demonstrate the operability of the implemented systems.  
+3. **Critical Analysis**: Carry out a critical evaluation of the work, comparing the models and functionalities of the non-relational systems with the original relational system.  
 
-- 3) Análise Crítica: Realizar uma análise crítica do trabalho desenvolvido, comparando os modelos e funcionalidades implementados com o sistema relacional original.
+# Databases Used  
 
-# Bases de Dados Utilizadas
+- **Relational**: Hospital Management System (via `hospital.sql`)  
+- **Non-relational**:  
+  - Document-oriented: **MongoDB**  
+  - Graph-oriented: **Neo4j**  
 
-- Relacional: Hospital Management System (via hospital.sql)
-- Não-Relacional:
-  - Document-oriented: MongoDB
-  - Graph-oriented: Neo4j
+# Repository Structure  
 
-# Estrutura do Repositório
+- `/relational`: Scripts and files related to the relational database system  
+- `/mongodb`: Scripts and files for MongoDB  
+- `/neo4j`: Scripts and files for Neo4j  
+- `/docs`: Documentation and technical reports  
 
-- /relational: Scripts e arquivos relacionados ao sistema de gestão de base de dados relacional.
-- /mongodb: Scripts e arquivos para o sistema MongoDB.
-- /neo4j: Scripts e arquivos para o sistema Neo4j.
-- /docs: Documentação e relatórios técnicos.
+# Submission and Presentation  
 
-# Submissão e Apresentação
+The project must be submitted by **June 3, 2024**, in a compressed format (`TP_[GROUPX].zip`).  
+It will be presented to the course instructors and must include demonstrations of the implemented databases and the queries created.  
 
-O trabalho deve ser submetido até o dia 3 de junho de 2024, em formato zip (TP_[GROUPX].zip), e será apresentado aos professores da disciplina, incluindo demonstrações das bases de dados implementadas e das consultas criadas.
+# Instructors  
 
-# Professores
-
-- António Carlos da Silva Abelha - abelha@di.uminho.pt
-- Cristiana Neto - cristiana.neto@algoritimi.uminho.pt
+- António Carlos da Silva Abelha – [abelha@di.uminho.pt](mailto:abelha@di.uminho.pt)  
+- Cristiana Neto – [cristiana.neto@algoritimi.uminho.pt](mailto:cristiana.neto@algoritimi.uminho.pt)  
